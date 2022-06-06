@@ -5,4 +5,5 @@ using UnityEngine.Events;
 public class OnInteract : MonoBehaviour
 {
     public UnityEvent onInteract;
+    public UnityEvent onInteractLoop;
 }

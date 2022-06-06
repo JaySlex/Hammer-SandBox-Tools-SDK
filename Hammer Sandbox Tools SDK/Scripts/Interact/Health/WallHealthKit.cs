@@ -3,11 +3,16 @@
 [AddComponentMenu("Hammer SandBox Tools SDK/Interact/Health/WallHealthKit")]
 public class WallHealthKit : MonoBehaviour
 {
-    public int ToAddHealth;
-    public bool IsUsed;
-    public bool CanGetHalth;
-    [Header("Models")]
-    public GameObject NotUsed;
-    public GameObject Used;
+    public int HealthToAdd;
+    public float HealthRate;
+    private float nextHealth;
+    public bool HealthOneTime;
+    private bool HealthDone;
+    public bool Collision;
+    public bool Trigger;
 
+    public void AddHealth()
+    {
+
+    }
 }

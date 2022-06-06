@@ -49,10 +49,10 @@ public class NewWeapon : ItemP
 
     [Header("Animation")]
     public Animation anim;
-    public List<AnimationClip> draw_anims;
-    public List<AnimationClip> fire_anims;
-    public List<AnimationClip> reload_anims;
-    public List<AnimationClip> reloadNoCock_anims;
+    public List<string> draw_anims;
+    public List<string> fire_anims;
+    public List<string> reload_anims;
+    public List<string> reloadNoCock_anims;
 
     [Header("UI")]
     public bool ShutGunShow;

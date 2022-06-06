@@ -8,7 +8,6 @@ public class LightDataUpdate : MonoBehaviour
 
     public LightMapData[] _lightMaps;
 
-
     [Header("RenderSettings")]
     public bool useCustomrenderSettings;
     public IGRenderSettings renderSettings;

@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 
-public class ItemP : MonoBehaviour
+public class ItemP : Entity
 {
     [Header("CustomItem")]
-    public string itemName;
     public Sprite item_img;
     public ItemType item_type;
 

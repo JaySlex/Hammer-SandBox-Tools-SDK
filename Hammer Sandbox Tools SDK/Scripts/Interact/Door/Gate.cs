@@ -13,4 +13,13 @@ public class Gate : MonoBehaviour
 
     public AudioClip openClip;
     public AudioClip closeClip;
+
+    public void OpenGate(float t)
+    {
+
+    }
+    public void CloseGate()
+    {
+
+    }
 }
